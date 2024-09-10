@@ -7,9 +7,9 @@ function calculate() {
     const display = document.getElementById('display');
     const expression = display.value;
     
-    // This will replace the result of any mathematical operation with "I Miss You"
+    // This will replace the result of any mathematical operation with "I love you"
     if (expression.match(/[0-9]+[+\-*/][0-9]+/)) {
-        display.value = 'I Miss You';
+        display.value = 'I love you';
     } else {
         try {
             display.value = eval(expression);
